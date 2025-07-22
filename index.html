@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zealous - Smart Learning For Smarter Future</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+     <div id="splash-screen">
+        <img src="logo.png" alt="Logo Animation" class="splash-logo" />
+    </div>
+
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" alt="Zealous Logo">
+                </div>
+                <div class="nav-links">
+                    <a href="#hero" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#courses">courses</a>
+                </div>
+                <div class="mobile-menu-btn" id="mobileMenuBtn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                
+
+<button class="contact-btn" id="contactBtn" onclick="scrollToSection('contact')">Contact Us</button>            </nav>
+            <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+<button class="contact-btn" id="contact-btn1" onclick="scrollToSection('contact')">Contact Us</button></div>
+
+        </header>
+        
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="hero-heading">
+                     Zealous
+                    <span class="highlight"> Your Trusted Learning Partner </span>
+                </h1>
+                <p class="hero-text">
+                    "We provide tuition for students from 5th to 12th standard, with special focus on science and commerce. We also prepare students for entrance exams, government exams, and commerce-related competitive tests."                </p>
+
+
+
+                </p>
+                <div class="options">
+                    <div class="option">HIGH SCHOOL</div>
+                    <div class="option">HIGHER SECONDARY</div>
+                    <div class="option">COMPETETITIVE EXAMS</div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="contact-btn " id="first-btn" onclick="scrollToSection('contact')">Contact Us</button>
+                    <button class="know-more-btn" onclick="scrollToSection('about')" >Know More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="circle-bg">
+                    <img src="./heroimg.png" alt="Student" class="student-img">
+                </div>
+                <div class="stats-card courses">
+                        <div></div>
+                        <div class="stats-text">
+                            <h3>98%</h3>
+                            <p>Success Rate </p>
+                        </div>
+                    </div>
+                <div class="stats-card students">
+                        <div ></div>
+                        <div class="stats-text">
+                            <h3>150k</h3>
+                            <p>Active Students</p>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+    </div>
+
+     <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-container">
+                 <div class="about-image-cluster">
+                    
+                </div>
+                  <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>We are here to elevate your child’s learning with customized tuition for all subjects, boards, classes and compettetive exams. We ensure they grasp the fundamentals and retain core concepts with clarity and confidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--features section-->
+    
+    <section class="feature-section" >
+        <h2 class="features-title"> Why Us?</h2>
+        
+        <div class="features-container">
+            <div class="features-wrapper" id="featuresWrapper">
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>Well-Trained and Passionate Tutors</h3>
+                           
+                        </div>
+                    </div>
+                    <p class="feature-description">
+Our tutors are academically strong and carefully selected for their teaching ability, commitment, and approachability.                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>Engaging and Interactive Sessions</h3>
+                          
+                        </div>
+                    </div>
+                    <p class="feature-description">
+We make learning enjoyable with interactive sessions that keep students involved and curious                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>Personalized Learning Plans</h3>
+                            
+                        </div>
+                    </div>
+                    <p class="feature-description">
+Every student is unique, and so is our approach. We tailor sessions to suit each learner’s pace and needs.                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>100% Success Rate</h3>
+                            
+                        </div>
+                    </div>
+                    <p class="feature-description">
+All our current students have shown improvement and achieved their learning goals.                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>Focused Guidance</h3>
+                           
+                        </div>
+                    </div>
+                    <p class="feature-description">
+Small batch sizes ensure each student gets the attention and support they deserve                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <div class="feature-info">
+                            <h3>Encouraging Early Feedback</h3>
+                           
+                        </div>
+                    </div>
+                    <p class="feature-description">
+Our first group of students and parents have shared positive feedback and noticeable results.                    </p>
+                </div>
+            </div>
+            <div class="navigation">
+            <button class="nav-btn" id="prevBtn">‹</button>
+            <div class="indicators" id="indicators"></div>
+            <button class="nav-btn" id="nextBtn">›</button>
+        </div>
+
+        <p class="swipe-hint">← Swipe to explore more features →</p>
+        </div>
+
+        
+    
+     <!-- Course-section -->
+    <section class="courses-section"  id="courses">
+    <div class="course-container">
+      <div class="section-header">
+        <div class="section-badge">TRANSFORM YOUR FUTURE</div>
+        <h2 class="section-title">COURSES WE PROVIDE</h2>
+       
+      </div>
+
+      <div class="courses-container">
+        <div class="course-row">
+          <div class="course-image">
+            <img src="./highschool.jpg" alt="High School Program" />
+          </div>
+          <div class="course-content">
+            <div class="course-category">Foundation</div>
+            <h3 class="course-title">High School Program</h3>
+            <p class="course-description">
+              Build unshakeable foundations for students from 5th to 10th standard. Our comprehensive approach ensures every concept is crystal clear, setting the stage for academic excellence.
+            </p>
+            <div class="course-highlights">
+              <span class="highlight-tag">Mathematics</span>
+              <span class="highlight-tag">Science</span>
+              <span class="highlight-tag">English</span>
+              <span class="highlight-tag">Social Studies</span>
+            </div>
+            <div class="course-action">
+              <button class="enroll-btn">Join Now</button>
+              <a href="#" class="learn-more">Explore Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-row">
+          <div class="course-image">
+            <img src="./higher.avif" alt="Higher Secondary Excellence" />
+          </div>
+          <div class="course-content">
+            <div class="course-category">Advanced</div>
+            <h3 class="course-title">Higher Secondary Excellence</h3>
+            <p class="course-description">
+              Specialized coaching for 11th and 12th standard students with focused streams in Science and Commerce. Master complex concepts and ace your board examinations with confidence.
+            </p>
+            <div class="course-highlights">
+              <span class="highlight-tag">Physics</span>
+              <span class="highlight-tag">Chemistry</span>
+              <span class="highlight-tag">Biology</span>
+              <span class="highlight-tag">Commerce</span>
+            </div>
+            <div class="course-action">
+              <button class="enroll-btn">Join Now</button>
+            </div>
+          </div>
+        </div>
+
+          <div class="course-row">
+          <div class="course-image">
+            <img src="./neet.jpg" alt="neet" />
+          </div>
+          <div class="course-content">
+            <div class="course-category">Competitive</div>
+            <h3 class="course-title">Neet</h3>
+            <p class="course-description">
+Specialized coaching for NEET aspirants with an intensive curriculum covering Physics, Chemistry, and Biology. Strengthen core concepts, practice rigorously, and build the confidence to excel in one of the most competitive medical entrance exams.
+            </p>
+            <div class="course-highlights">
+              <span class="highlight-tag">Physics</span>
+              <span class="highlight-tag">Chemistry</span>
+              <span class="highlight-tag">Biology</span>
+            </div>
+            <div class="course-action">
+              <button class="enroll-btn">Join Now</button>
+            </div>
+          </div>
+        </div>
+
+          <div class="course-row">
+          <div class="course-image">
+            <img src="./eng.jpg" alt="eng" />
+          </div>
+          <div class="course-content">
+            <div class="course-category">Competitive</div>
+            <h3 class="course-title">JEE MAIN/ADVANCED</h3>
+            <p class="course-description">
+Specialized coaching for JEE aspirants with a focused curriculum in Physics, Chemistry, and Mathematics. Develop strong analytical skills, master problem-solving techniques, and gain the competitive edge to succeed in one of India’s toughest engineering entrance exams.
+            </p>
+            <div class="course-highlights">
+              <span class="highlight-tag">Physics</span>
+              <span class="highlight-tag">Chemistry</span>
+              <span class="highlight-tag">Biology</span>
+            </div>
+            <div class="course-action">
+              <button class="enroll-btn">Join Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="course-row">
+          <div class="course-image">
+            <img src="./about2.jpg" alt="Exam Mastery Program" />
+          </div>
+          <div class="course-content">
+            <div class="course-category">Competitive</div>
+            <h3 class="course-title">Exam Mastery Program</h3>
+            <p class="course-description">
+              Intensive preparation for entrance exams, government jobs, and commerce-related competitive tests. Strategic approach with proven methodologies to ensure your success.
+            </p>
+            <div class="course-highlights">
+              <span class="highlight-tag">Government Exams</span>
+              <span class="highlight-tag">Banking</span>
+              <span class="highlight-tag">CA Foundation</span>
+            </div>
+            <div class="course-action">
+              <button class="enroll-btn">Join Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Contact Us Section -->
+
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="contact-card">
+            <div class="contact-info">
+                <h2>Get in touch</h2>
+                <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                
+                <div class="contact-details">
+                   <div class="contact-item">
+                        <div class="contact-icon">📩</div>
+                            <div class="contact-text">
+                                   <div class="contact-label">Email</div>
+                                    <div class="contact-value">contact@zealouslearning.com</div>
+                              </div>
+                           </div>
+                   <div class="contact-item">
+    <div class="contact-icon">📞</div>
+    <div class="contact-text">
+        <div class="contact-label">Phone</div>
+        <div class="contact-value">8921928463
+</div>
+    </div>
+    
+</div>
+<div class="contact-item">
+    <div class="contact-icon">📍</div>
+    <div class="contact-text">
+        <div class="contact-label">Location</div>
+        <div class="contact-value">Karikkamkulam,Karaparamba<br>Kozhikode</div>
+    </div>
+</div>
+                    
+                   
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <div class="success-message" id="successMessage">
+                    Thank you! Your message has been sent successfully.
+                </div>
+                
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full name</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="Email address" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="class">Class</label>
+                            <input type="text" id="class" name="class" placeholder="Student's class" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message here"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- socia medeia icon -->
+<!-- Professional Social Icons -->
+    <div class="social-icons">
+        <a href="https://wa.me/918921928463" class="social-icon whatsapp" target="_blank" title="WhatsApp">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.001 4.908A9.817 9.817 0 0 0 11.992 2C6.534 2 2.085 6.448 2.08 11.908c0 1.748.458 3.45 1.321 4.956L2 22l5.255-1.377a9.916 9.916 0 0 0 4.737 1.206h.005c5.46 0 9.908-4.448 9.913-9.913A9.872 9.872 0 0 0 19 4.908h.001ZM11.992 20.15A8.216 8.216 0 0 1 7.797 19l-.3-.18-3.117.818.833-3.041-.196-.314a8.2 8.2 0 0 1-1.258-4.381c0-4.533 3.696-8.23 8.239-8.23a8.2 8.2 0 0 1 5.825 2.413 8.196 8.196 0 0 1 2.41 5.825c-.006 4.55-3.702 8.24-8.24 8.24Zm4.52-6.167c-.247-.124-1.463-.723-1.692-.808-.228-.08-.394-.123-.556.124-.166.246-.641.808-.784.969-.143.166-.29.185-.537.062-.247-.125-1.045-.385-1.99-1.23-.738-.657-1.232-1.47-1.38-1.716-.142-.247-.013-.38.11-.504.11-.11.247-.29.37-.432.126-.143.167-.248.248-.413.082-.167.043-.31-.018-.433-.063-.124-.557-1.345-.765-1.838-.2-.486-.404-.419-.557-.425-.142-.009-.309-.009-.475-.009a.911.911 0 0 0-.661.31c-.228.247-.864.845-.864 2.067 0 1.22.888 2.395 1.013 2.56.122.167 1.742 2.666 4.229 3.74.587.257 1.05.408 1.41.523.595.19 1.13.162 1.558.1.475-.072 1.464-.6 1.673-1.178.205-.58.205-1.075.142-1.18-.061-.104-.227-.165-.475-.29Z"/>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/zealous_learning?igsh=MWxuaGd5YjAyMm9xdw==" class="social-icon instagram" target="_blank" title="Instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+        </a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@zealouslearning.com&su=Subject%20Here&body=Hello,%0D%0A%0D%0AMessage%20body%20here" class="social-icon gmail" target="_blank" title="Gmail">            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+            </svg>
+        </a>
+    </div>
+
+<!-- Footer Section -->
+ <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="./logo.png" alt="Zealous Logo" class="zealous-logo">
+                </div>
+                <p class="footer-tagline">
+                    We're here to guide students every step of the way to build strong foundations and empower their academic journey.
+                </p>
+                
+            </div>
+            
+            <!-- Quick Links Section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#hero" class="footer-link">Home</a></li>
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#services" class="footer-link">Courses</a></li>
+                    <li><a href="#results" class="footer-link">Achievers</a></li>
+                    <li><a href="#contact" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Information Section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>Karikkamkulam,Karaparamba<br>Kozhikode</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:8921928463">8921928463</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@zealouslearning.com">contact@zealouslearning.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>© 2025 Zealous. All rights reserved</p>
+        </div>
+    </footer>
+
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js"></script>
+</body>
+</html>
