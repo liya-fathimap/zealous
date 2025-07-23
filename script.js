@@ -824,3 +824,10 @@ document.getElementById('first-btn').addEventListener('click', function() {
 document.querySelector('.know-more-btn').addEventListener('click', function() {
     document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
 });
+
+ function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  }
